@@ -1,0 +1,22 @@
+// Home.js
+import React from 'react';
+import TourEvent from './TourEvent';
+
+const Home = () => {
+  return (
+    <div className="home">
+      <h1>The Generics</h1>
+      <h2>Get our Latest Album</h2>
+      <div className="tour-events">
+        <TourEvent date="JUL 16" location="DETROIT, MI DTE ENERGY MUSIC THEATRE" />
+        <TourEvent date="JUL 19" location="TORONTO,ON BUDWEISER STAGE" />
+        <TourEvent date="JUL 22" location="BRISTOW, VA JIGGY LUBE LIVE" />
+        <TourEvent date="JUL 29" location="PHOENIX, AZ AK-CHIN PAVILION" />
+        <TourEvent date="AUG 2" location="LAS VEGAS, NV T-MOBILE ARENA" />
+        <TourEvent date="AUG 7" location="CONCORD, CA CONCORD PAVILION" />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
